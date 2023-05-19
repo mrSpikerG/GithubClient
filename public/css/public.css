@@ -1,0 +1,61 @@
+.dateContainer {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0.375em;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.date-card .card-header {
+    display: flex;
+    justify-content: center;
+}
+
+.date-card{
+    margin:15px
+}
+
+.repositoryContainer{
+    padding: 20px;
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    width: 30vw;
+    flex-direction: column;
+    border-bottom-width: 1px;
+}
+
+
+.repository-pagination{
+    margin: 10px 0px;
+}
+
+#git-body{
+    color: rgb(var(--vs-text));
+    background: rgb(var(--vs-background))!important;
+}
+
+.card-container{
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 25px;
+    background: rgb(var(--vs-gray-1))!important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.vs-sidebar-content.absolute{
+    top: calc(50% - 40%);
+    height: 80%!important;
+}
+.con-content .vs-input-content .vs-input {
+    width: 100%;
+}
+
+.con-form .vs-input-content .vs-input {
+    width: 100%;
+}
+
+/* background-color: var(--vs-background); */
